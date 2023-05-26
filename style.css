@@ -1,0 +1,67 @@
+@import url('https://fonts.gogleleapis.com/css2?family=Poppins');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins, sans-serif';
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: url("background.jpg") no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 20px 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 99;
+    background-color: black;
+}
+
+.logo{
+    font-size: 2em;
+    color: yellow;
+
+}
+
+.tittle a{
+    
+    padding: 30px;
+    color: white;
+    float: left;
+
+}
+
+.btnlogin-popup{
+    width: 130px;
+    height: 50px;
+    background: transparent;
+    border: 2px solid ;
+    background-color: #1C1C1C;
+    outline: none;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 1.1em;
+    color: white;
+    font-weight: 500;
+    margin-left: 23x;
+    transition: .5s;
+}
+
+.navigation .btnlogin-popup:hover {
+    background: #fff;
+    color: #162938;
+
+}
+

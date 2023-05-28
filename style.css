@@ -11,9 +11,10 @@ body {
     justify-content: center;
     align-items: center;
     min-height: 100vh;
-    background: url("background.jpg") no-repeat;
+    background: url("lolbg.jpg") no-repeat;
     background-position: center;
     background-size: cover;
+    background-attachment: fixed;
 }
 
 header{
@@ -40,28 +41,75 @@ header{
     padding: 30px;
     color: white;
     float: left;
-
+    text-decoration: none;
 }
 
 .btnlogin-popup{
     width: 130px;
     height: 50px;
     background: transparent;
-    border: 2px solid ;
+    border: 3px;
     background-color: #1C1C1C;
     outline: none;
-    border-radius: 6px;
+    border-radius: 12px;
     cursor: pointer;
     font-size: 1.1em;
     color: white;
     font-weight: 500;
-    margin-left: 23x;
+    margin-left: 23px;
     transition: .5s;
+}
+
+.btnsingup-popup {
+    width: 130px;
+    height: 50px;
+    /* background: transparent; */
+    border: 2px;
+    background-color: skyblue;
+    outline: none;
+    cursor: pointer;
+    border-radius: 1.1em;
+    font-size: 1.1em;
+    color: black;
+    font-weight: 500;
+    margin-left: 23px;
+    translate: .5s;
+
 }
 
 .navigation .btnlogin-popup:hover {
     background: #fff;
     color: #162938;
 
+}
+
+/* .container{
+    width: 25px;
+    height: 25px;
+    position: absolute;
+    overflow: hidden;
+    left: 407px;
+    top: 50px;
+ 
+
+} */
+
+.btnlogo{
+    position: absolute;
+    left: 407px;
+    top: 50px;
+    width: 25px;
+    height: 25px;
+    background-color: black;
+    border-style: none;
+}
+
+.img-btn{
+    width: 25px;
+    height: 25px;
+    position: relative;
+    overflow: hidden;
+  
+  
 }
 
